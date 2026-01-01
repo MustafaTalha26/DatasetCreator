@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: schema-validator
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    structured-schema: structured_schema
