@@ -8,7 +8,6 @@ public class SchemaValidatorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SchemaValidatorApplication.class, args);
-		System.out.println("aaa");
 	}
 
 }

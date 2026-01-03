@@ -19,6 +19,7 @@ public class Column {
     private List<String> allowedValues; // For predefined random values like ["Ankara", "İzmir"]
     private Double minValue;    // For random doubles
     private Double maxValue;    // For random doubles
-    private OffsetDateTime minDate; // For random dates
-    private OffsetDateTime maxDate; // For random dates
+    //Offsetdatetime cant be serialized by jackson.
+    private String minDate; // For random dates
+    private String maxDate; // For random dates
 }
